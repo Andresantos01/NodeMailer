@@ -36,7 +36,7 @@ Javascript, HTML, CSS, NodeJs, MYSQL, PHP, JAVA, SpringBoot, SQLite, React, Angu
 const nodemailer = require('nodemailer');
 
 //Example Gmail settings account host
-let transforter = nodemailer.createTransport({
+let transporter = nodemailer.createTransport({
     host: 'smtp.gmail.com',
     port: 587, //Porta Gmail SMTP (TLS)
     secure: false, // if your smtp contains SSL/TLS, change true 

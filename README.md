@@ -47,7 +47,7 @@ let transporter = nodemailer.createTransport({
 });
 
 //sendMAil will send the email
-transforter.sendMail({
+transporter.sendMail({
     from: 'Your name  <examplehost@gmail.com>',
     to: 'example@gmail.com',
     subject: 'Title of message',
